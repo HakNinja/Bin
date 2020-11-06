@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Calculator</title>
+		<style>
+			.calwork{
+				width: 300px;
+				height: 400px;
+				margin: auto;
+			}
+			input{
+				width: 108px;
+				background-color:yellow;
+			}
+			#Answer{
+				width: 346px;
+			}
+		</style>
+	</head>
+	<body><center><br/>
+		<br/><h1>My Calculator</h1><br/>
+		<div class="calbody">
+		    <form name="calwork">
+		    	<input id="Answer" type="text" name="answer" ><br/>
+				<input type="botton" value=" 1 " onclick="calwork.answer.value+='1'">
+				<input type="botton" value=" 2 " onclick="calwork.answer.value+='2'">
+				<input type="botton" value=" 3 " onclick="calwork.answer.value+='3'"><br/>
+				<input type="botton" value=" 4 " onclick="calwork.answer.value+='4'">
+				<input type="botton" value=" 5 " onclick="calwork.answer.value+='5'">
+				<input type="botton" value=" 6 " onclick="calwork.answer.value+='6'"><br/>
+				<input type="botton" value=" 7 " onclick="calwork.answer.value+='7'">
+				<input type="botton" value=" 8 " onclick="calwork.answer.value+='8'">
+				<input type="botton" value=" 9 " onclick="calwork.answer.value+='9'"><br/>
+				<input type="botton" value=" * " onclick="calwork.answer.value+='*'">
+				<input type="botton" value=" 0 " onclick="calwork.answer.value+='0'">
+				<input type="botton" value=" / " onclick="calwork.answer.value+='/'"><br/>
+				<input type="botton" value=" + " onclick="calwork.answer.value+='+'">
+				<input type="botton" value=" - " onclick="calwork.answer.value+='-'">
+				<input type="botton" value=" = " onclick="calwork.answer.value= eval(calwork.answer.value)">
+				<br/><input id="Answer" type="botton" value=" Clear " onclick="calwork.answer.value=''">
+			</form>
+		</div></center>
+	</body>
+</html>
+
+
+
+
+ 
+
