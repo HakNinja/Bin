@@ -1,0 +1,4 @@
+Size of char variable is 1 byte
+Size of int variable is 4 bytes
+Size of float variable is 4 bytes
+Size of double variable is 8 bytes

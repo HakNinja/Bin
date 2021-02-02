@@ -1,0 +1,28 @@
+#include<stdio.h>
+
+int main() {
+	float p, r, t, si, ci;
+	
+	printf("Enter Principle=");
+	scanf("%f",&p);
+	printf("Enter Rate=");
+	scanf("%f",&r);
+	printf("Enter Time=");
+	scanf("%f",&t);
+	
+    //	simple interest equation
+	si=(p*r*t)/100;
+	
+	printf("\nSimple Interest is equal to %f",si);
+	
+	//	compound interest equation
+	float pow=1;
+	for(int i=0;i<t;i++){
+		pow=pow*(1 + r / 100);
+	}
+	ci =  p * pow - p;
+
+	printf("\nCompound Interest is equal to %f",ci);	
+    
+	return 0;
+}

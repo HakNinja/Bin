@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main(){
+    char name[20];
+    
+    printf("Enter name: ");
+    //input string
+    scanf("%s", name);
+
+    //output
+    printf("hii %s, did you like this application?", name);
+    
+    return 0;
+}

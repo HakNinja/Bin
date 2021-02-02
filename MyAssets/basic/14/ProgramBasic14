@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main(){
+    int a = 5, b = 10;
+    
+    // equation
+    a += b -= a = b - a;
+    
+    printf("After Swapping values of a and b are %d and %d", a, b);
+
+    return 0;
+}
