@@ -1,0 +1,2 @@
+gcc -o program c.c -lSDL_bgi -lSDL2
+./program
